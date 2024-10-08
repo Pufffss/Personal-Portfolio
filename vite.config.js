@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-dom','html-react-parser']
+      external: ['react-router-dom','html-react-parser'],
     }
   }
 })
